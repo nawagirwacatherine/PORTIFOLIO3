@@ -5,7 +5,7 @@ import logo from '../../images/logo.jpg'
 const Navbar = () => {
   return (
     <div className='navbar'>
-        < img src={logo} alt=""/>
+        < img src={logo} alt="" className='logo'/>
         <ul className='nav-menu'>
             <li>Home </li>
             <li>About Me</li>
@@ -13,6 +13,8 @@ const Navbar = () => {
             <li>Portifolio</li>
             <li>Contact</li>
         </ul>
+
+        <div className='nav-connect'> Connect with Me</div>
     </div>
   )
 }

@@ -3,6 +3,7 @@ import React from 'react'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
+import About from './components/About/About'
 
 const App = ()  => {
 
@@ -11,6 +12,7 @@ const App = ()  => {
     <div>
       <Navbar />
       <Hero />
+      <About />
     </div>
   )
 }

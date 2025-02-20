@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import fruit from '../../images/fruit.jpg'
-import presentation from '../../images/presentation2.png'
+import presentation from '../../images/presentation.jpg'
 
 const About = () => {
   return (
@@ -31,6 +31,7 @@ const About = () => {
                 </div>
             </div>
         </div>
+        </div>
 
         <div className='about-achievements'>
         <div className='about-achievement'>
@@ -50,7 +51,7 @@ const About = () => {
             </div>
         </div>
         </div>
-    </div>
+   
   )
 }
 

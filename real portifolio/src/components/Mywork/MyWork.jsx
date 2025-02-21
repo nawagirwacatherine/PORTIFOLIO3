@@ -15,10 +15,10 @@ const MyWork = () => {
         return <img key={index} src={work.wImg} alt="" className='logo' />
         })}
        </div>
-       <div>
+       <div className='mywork-showmore'>
         <p>Show More</p>
+        <FaArrowRight />
        </div>
-       <FaArrowRight />
     </div>
   )
 }

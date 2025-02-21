@@ -19,7 +19,7 @@ const Services = () => {
             <p>{service.sDesc}</p>
             <div className="services-readmore">
               <p>Read More</p>
-              <FaArrowRight />
+             <FaArrowRight />
             </div>
           </div>
         })}

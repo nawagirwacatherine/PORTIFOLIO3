@@ -4,7 +4,7 @@ import logo from '../../images/logo.jpg'
 
 const Hero = () => {
   return (
-    <div className='hero'>
+    <div id="home"className='hero'>
         <img src={ logo} alt="" className='logo' />
         <h1><span>Im Nawagirwa Catherine</span>, frontend developer based in Uganda</h1>
         <p>Iam a frontend developer from kampala uganda,With 2years of exprience. </p>

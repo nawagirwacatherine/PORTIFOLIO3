@@ -5,7 +5,7 @@ import presentation from '../../images/presentation.jpg'
 
 const About = () => {
   return (
-    <div className='about'>
+    <div id='about' className='about'>
         <div className='about-title'> <h1>About Me</h1>
         <img src={fruit} alt=""  className='logo' />
         </div>

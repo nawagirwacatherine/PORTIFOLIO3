@@ -13,7 +13,6 @@ const Hero = () => {
         <div  className='hero-action'>
 
         <div  className='hero-connect'><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with Me</AnchorLink>
-            Connect with me
             </div>
 
             <div  className='hero-resume'>

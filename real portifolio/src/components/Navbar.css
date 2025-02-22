@@ -44,3 +44,8 @@ transition: 0.5s;
     display: flex;
     margin: auto;
   }
+
+  .anchor-link{
+     text-decoration: none;
+     color: white;
+  }

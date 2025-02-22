@@ -1,4 +1,5 @@
 import React from 'react'
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import './Hero.css'
 import logo from '../../images/logo.jpg'
 
@@ -11,7 +12,7 @@ const Hero = () => {
 
         <div  className='hero-action'>
 
-        <div  className='hero-connect'>
+        <div  className='hero-connect'><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with Me</AnchorLink>
             Connect with me
             </div>
 

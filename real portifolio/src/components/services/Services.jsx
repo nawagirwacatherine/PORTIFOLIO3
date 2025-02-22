@@ -6,7 +6,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Services = () => {
   return (
-    <div id='service' className='services'>
+    <div id='services' className='services'>
       <div  className='services-title'>
         <h1>My Services</h1>
         <img src={restaurant3} alt="" className='logo' />

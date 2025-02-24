@@ -60,12 +60,12 @@ transition: 0.5s;
      text-decoration: none;
      color: white;
   }
-  .nav-mob-close{
+  /* .nav-mob-close{
     display: none;
   }
   .nav-mob-open{
     display: none;
-  }
+  } */
 
 
 
@@ -101,8 +101,8 @@ transition: 0.5s;
       top: 0;
       gap: 30px;
       background-color: #1f0016;
-      width: 350px;
-      height: 100px;
+      width: 200px;
+      height: 450px;
       z-index: 2;
       transition: right 0.5s;
       right: -350px;

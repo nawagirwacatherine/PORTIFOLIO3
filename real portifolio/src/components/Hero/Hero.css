@@ -1,8 +1,13 @@
 .hero {
     display:flex;
     align-items: center;
-    flex-direction: column;
-    gap: 35px;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.hero-content{
+align-items: center;
+margin: 10px;
 }
 .hero img {
  margin-top:150px;

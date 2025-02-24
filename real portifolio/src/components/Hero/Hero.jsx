@@ -6,8 +6,8 @@ import logo from '../../images/logo.jpg'
 const Hero = () => {
   return (
     <div id="home"className='hero'>
-     <img src={ logo} alt="" className='logo' />
-        <h1><span>Im Nawagirwa Catherine</span>, frontend developer based in Uganda</h1>
+       <img src={ logo} alt="" className='logo' />
+             <div className='hero-content'> <h1><span>Im Nawagirwa Catherine</span>, frontend developer based in Uganda</h1>
         <p>Iam a frontend developer from kampala uganda,With 2years of exprience. </p>
         <div  className='hero-action'>
 
@@ -18,7 +18,8 @@ const Hero = () => {
             My resume
             </div>
 
-        </div>
+        </div></div>
+       
     </div>
   )
 }

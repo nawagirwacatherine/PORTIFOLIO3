@@ -1,13 +1,11 @@
 import React from 'react'
 import './About.css'
-import fruit from '../../images/fruit.jpg'
 import presentation from '../../images/presentation.jpg'
 
 const About = () => {
   return (
     <div id='about' className='about'>
         <div className='about-title'> <h1>About Me</h1>
-        <img src={fruit} alt=""  className='logo' />
         </div>
 
         <div className='about-sections'>
@@ -22,12 +20,17 @@ const About = () => {
             </div>
 
             <div className='about-skills'>
-            <div className='about-skill'>
+                <div className='about-skill'>
                 <p>HTML & CSS</p><hr style={{width:"50%"}}/>
+                </div>
+                <div className='about-skill'>
                 <p>React js</p><hr style={{width:"70%"}}/>
+                </div>
+                <div className='about-skill'>
                 <p>Javascript</p><hr style={{width:"60%"}}/>
+                </div>
+                <div className='about-skill'>
                 <p>UX/UI designing</p><hr style={{width:"50%"}}/>
-               
                 </div>
             </div>
         </div>

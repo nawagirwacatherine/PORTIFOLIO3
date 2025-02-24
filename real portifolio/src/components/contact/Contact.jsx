@@ -1,5 +1,4 @@
 import './contact.css'
-import fruit from '../../images/fruit.jpg'
 import { GoMail } from "react-icons/go";
 import { MdAddIcCall } from "react-icons/md";
 import { CiLocationOn } from "react-icons/ci";
@@ -32,7 +31,6 @@ const Contact = () => {
     <div id='contact' className='contact'>
         <div className="contact-title">
             <h1>Get in touch</h1>
-                    <img src={fruit} alt=""  className='logo' />
         </div>
         <div className="contact-section">
             <div className="contact-left">

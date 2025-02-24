@@ -14,7 +14,7 @@
 
 .services-title h1 {
 padding: 0px 30px;
-font-size: 80px;
+font-size: 40px;
 font-weight: 600;
 }
 
@@ -23,7 +23,7 @@ font-weight: 600;
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-    padding: 60px;
+    padding: 20px;
     border-radius: 10px;
     border: 2px solid white;
     transition: 0.4s;
@@ -43,7 +43,7 @@ font-weight: 600;
 }
 
 .services-format h2 {
-    font-size: 38px;
+    font-size: 25px;
     font-weight: 800;
     background:linear-gradient(270deg,#DF8908 50%, #B41555 106.238%);
     background-clip:text ;

@@ -8,6 +8,10 @@
  margin-top:150px;
 }
 
+.logo-content{
+    display: flex;
+}
+
 .hero h1 {
     text-align: center;
     width: 70%;

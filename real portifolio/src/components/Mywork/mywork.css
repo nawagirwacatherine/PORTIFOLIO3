@@ -15,7 +15,7 @@
 
 .mywork-title h1{
     padding: 0px 30px;
-    font-size: 80px;
+    font-size: 40px;
     font-weight: 600;
 }
 
@@ -28,13 +28,13 @@
 .mywork-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
+    gap: 60px;
 }
 
 .mywork-container img{
     box-sizing: border-box;
-    width: 400px;
-    height: 280px;
+    width: 250px;
+    height: 250px;
     transition: 0.3s;
     cursor: pointer;
 }

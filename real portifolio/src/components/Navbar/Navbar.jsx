@@ -21,7 +21,7 @@ const Navbar = () => {
   }
   return (
     <div className='navbar'>
-        <TbCircleDottedLetterK />
+        <TbCircleDottedLetterK className='log' />
         <TfiMenu onClick={openMenu} className='nav-mob-open' />
         <ul ref={menuRef} className='nav-menu'>
         <RiCloseLine onClick={closeMenu}  className='nav-mob-close'/>

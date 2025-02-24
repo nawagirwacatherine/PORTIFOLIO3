@@ -1,5 +1,4 @@
 import './mywork.css'
-import project from '../../images/project.jpg'
 import myWorkData from '../../images/myWorkData'
 import { FaArrowRight } from "react-icons/fa";
 
@@ -8,7 +7,7 @@ const MyWork = () => {
     <div id='work' className='mywork'>
        <div className="mywork-title">
         <h1>My latest work</h1>
-        <img src={project} alt="" className='logo' />
+     
        </div>
        <div className="mywork-container">
         {myWorkData.map((work,index) =>{

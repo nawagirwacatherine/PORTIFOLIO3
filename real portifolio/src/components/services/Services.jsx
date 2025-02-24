@@ -1,6 +1,5 @@
 
 import './services.css'
-import restaurant3 from '../../images/restaurant3.jpg'
 import servicesData from '../../images/servicesData'
 import { FaArrowRight } from "react-icons/fa";
 
@@ -9,11 +8,11 @@ const Services = () => {
     <div id='services' className='services'>
       <div  className='services-title'>
         <h1>My Services</h1>
-        <img src={restaurant3} alt="" className='logo' />
+      
       </div>
       <div className="service-container">
         {servicesData.map((service,index)=>{
-          return <div  key={index}className="services-format">
+          return <div  key={index} className="services-format">
             <h3>{service.sNo}</h3>
             <h2>{service.sName}</h2>
             <p>{service.sDesc}</p>

@@ -72,6 +72,7 @@
     flex-direction: column;
     align-items: start;
     gap: 30px;
+    margin-left: 5px;
 }
 
 .contact-right label {

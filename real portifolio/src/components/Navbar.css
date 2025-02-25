@@ -22,6 +22,12 @@ font-size: 22px;
 cursor: pointer;
 transition: 0.5s;
 }
+
+.nav-connect p{
+  width: 170px;
+  padding: 5px;
+  
+}
 .nav-connect:hover{
     transform: scale(1.05)
 }
@@ -47,8 +53,13 @@ transition: 0.5s;
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 5px;
     cursor: pointer;
+  }
+
+  .nav-menu li p{
+    width: 100px;
+
+
   }
 
   .nav-menu li img{

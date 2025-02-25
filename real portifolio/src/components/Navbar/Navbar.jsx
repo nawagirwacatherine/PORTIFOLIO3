@@ -21,7 +21,8 @@ const Navbar = () => {
   }
   return (
     <div className='navbar'>
-        <TbCircleDottedLetterK className='log' />
+      <div> <TbCircleDottedLetterK className='log' /></div>
+       
         <TfiMenu onClick={openMenu} className='nav-mob-open' />
         <ul ref={menuRef} className='nav-menu'>
         <RiCloseLine onClick={closeMenu}  className='nav-mob-close'/>
@@ -32,7 +33,7 @@ const Navbar = () => {
             <li><AnchorLink className='anchor-link' offset={50} href='#contact'><p>Contact</p></AnchorLink></li>
         </ul>
 
-        <div className='nav-connect'><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with Me</AnchorLink></div>
+        <div className='nav-connect'><AnchorLink className='anchor-link' offset={50} href='#contact'><p>Connect with Me</p></AnchorLink></div>
     </div>
   )
 }

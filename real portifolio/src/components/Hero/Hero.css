@@ -10,13 +10,21 @@
 .hero-content{
 align-items: center;
 margin: 10px;
+padding: 10px;
 }
-.hero img {
- /* margin-bottom:180px; */
-}
+
 
 .logo-content{
     display: flex;
+   
+}
+
+.logo1{
+    margin: 5px;
+    width: 200px;
+    padding: 40px;
+   
+
 }
 
 .hero h1 {
@@ -72,11 +80,7 @@ margin: 10px;
 }
 
 @media(max-width:768px){
-    .hero img{
-        margin-bottom: 120px;
-        width: 260px;
-    }
-
+ 
     .hero h1 {
         margin-top: 50px;
         width: 90%;
@@ -106,5 +110,12 @@ margin: 10px;
       padding: 20px 50px;
       border-radius: 40px;
     }
+
+    .logo1{
+    margin: 5px;
+    width: 200px;
+    padding: 10px;
+    margin-left: 10px;
+}
 
 }

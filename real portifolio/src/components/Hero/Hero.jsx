@@ -1,12 +1,12 @@
 
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import './Hero.css'
-import logo from '../../images/logo.jpg'
+import me from '../../images/me.jpg'
 
 const Hero = () => {
   return (
     <div id="home"className='hero'>
-      <div> <img src={ logo} alt="" className='logo' /></div>
+      <div> <img src={me} alt="" className='logo1' /></div>
              <div className='hero-content'> <h1><span>Im Nawagirwa Catherine</span>, frontend developer based in Uganda</h1>
         <p>Iam a frontend developer from kampala uganda,With 2years of exprience. </p>
         <div  className='hero-action'>

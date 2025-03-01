@@ -1,5 +1,5 @@
 import './footer.css'
-import restaurant4 from  '../../images/restaurant4.jpg'
+import logo from  '../../images/logo.jpg'
 import { CiUser } from "react-icons/ci";
 
 const Footer = () => {
@@ -7,7 +7,7 @@ const Footer = () => {
     <div className='footer'>
         <div className="footer-top">
             <div className="footer-top-left">
-                <img src={restaurant4}alt="" className='logo'/>
+                <img src={logo}alt="" className='logo'/>
                 <p>Iam a frontend developer from uganda with 2yrs of exprience</p>
             </div>
             <div className="footer-top-right">
